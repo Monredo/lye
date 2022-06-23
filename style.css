@@ -1,0 +1,33 @@
+/* fonts */
+@font-face {
+    font-family: 'EBCorp';
+    src: url('EBCorp-Regular.eot');
+    src: local('EBCorp-Regular'),
+        url('EBCorp-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EBCorp-Regular.woff2') format('woff2'),
+        url('EBCorp-Regular.woff') format('woff'),
+        url('EBCorp-Regular.ttf') format('truetype'),
+        url('EBCorp-Regular.svg#EBCorp-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EBCorp';
+    src: url('EBCorp-Bold.eot');
+    src: local('EBCorp-Bold'),
+        url('EBCorp-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EBCorp-Bold.woff2') format('woff2'),
+        url('EBCorp-Bold.woff') format('woff'),
+        url('EBCorp-Bold.ttf') format('truetype'),
+        url('EBCorp-Bold.svg#EBCorp-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* theme */
+body {
+    font-family: "EBCorp";
+}
