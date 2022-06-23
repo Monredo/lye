@@ -18,3 +18,4 @@ functionBold() {
   else {
     document.getElementById('content').style.fontWeight='normal';
   }
+}
