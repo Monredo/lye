@@ -40,14 +40,24 @@ body {
     padding: 2em;
 }
 
-/* theme */
-body {
-    font-family: "EBCorp";
-    margin: 0;
+#tools-text {
+    margin-left: 10px;
 }
 
-.nav-bar {
-    background-color: white;
-    box-shadow: 0 2px 8px #0000001a;
-    padding: 2em;
+.setup {
+    margin-left: 10px;
+}
+
+.look {
+    margin: 10px 0;
+    padding: 8px;
+    width: 15%;
+    font-family: "EBCorp";
+}
+
+.size {
+    margin: 10px 0;
+    padding: 8px;
+    width: 7%;
+    font-family: "EBCorp";
 }
