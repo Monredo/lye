@@ -3,7 +3,7 @@ function changeFont(font) {
   document.getElementById('content').style.fontFamily=font.value;
 }
 
-function changeSize(n) {
+function changeSize(n){
   var s=document.getElementById('content');
   s.style.fontSize=n.value+'px';
 }
