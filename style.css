@@ -108,3 +108,11 @@ select::-webkit-scrollbar-thumb {
     border: 1px solid rgba(0,126,167,1);
     background: rgba(0,192,255,255);
 }
+
+/* textarea */
+textarea {
+    width: 800px;
+    height: 350px;
+    margin-left: 10%;
+    font-family: "EBCorp";
+}
