@@ -77,7 +77,6 @@ body {
 
 .look:active, .size:active {
     border: 1px solid rgba(0,126,167,1);
-    background: rgba(0,192,255,255);
 }
 
 select::-webkit-scrollbar {
@@ -98,6 +97,8 @@ select::-webkit-scrollbar-thumb {
     border-radius: 7px;
     transition: .2s;
     font-size: 18px;
+    background: white;
+    font-family: "EBCorp";
 }
 
 .upper:hover {
@@ -106,7 +107,6 @@ select::-webkit-scrollbar-thumb {
 
 .upper:active {
     border: 1px solid rgba(0,126,167,1);
-    background: rgba(0,192,255,255);
 }
 
 /* textarea */
