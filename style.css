@@ -233,10 +233,13 @@ a:hover {
 
 /* nav item */
 .nav-item {
-    margin-right: 19px;
+    margin-left: 40px;
 }
 
 /* navbar nav */
 .navbar-nav {
-    margin-left: auto!important;
+    margin-left: auto !important;
+    list-style: none;
+    display: flex;
+    float: right;
 }
