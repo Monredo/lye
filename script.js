@@ -43,3 +43,13 @@ function Underline() {
     document.getElementById('content').style.textDecoration='none';
   }
 }
+
+function reset() {
+  document.getElementById("content").style.fontStyle = "Normal";
+  document.getElementById("content").style.textDecoration = "none";
+  document.getElementById("content").style.fontWeight = "normal";
+}
+
+function remove() {
+  document.getElementById("content").value="";
+}
