@@ -187,26 +187,31 @@ textarea:hover {
     border: 1px solid rgba(0,126,167,1);
 }
 
-input[type=reset] {
+
+.normal {
     border: 1px solid rgba(0,192,255,255);
     border-radius: 7px;
     transition: .2s;
     font-size: 18px;
+    font-family: "EBCorp";
+    background: white;
 }
 
-input[type=reset]:hover {
+.normal:hover {
     border: 1px solid rgba(0,126,167,1);
     cursor: pointer;
 }
 
-.normal {
+input[type=reset] {
     border: 1px solid rgba(0,255,125,125);
     border-radius: 7px;
     transition: .2s;
     font-size: 18px;
+    font-family: "EBCorp";
+    background: white;
 }
 
-.normal:hover {
+input[type=reset]:hover {
     border: 1px solid rgba(0,201,38,38);
     cursor: pointer;
 }
