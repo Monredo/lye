@@ -113,7 +113,7 @@ select::-webkit-scrollbar-thumb {
 textarea {
     width: 800px;
     height: 350px;
-    margin-left: 10%;
     font-family: "EBCorp";
+    font-size: 24px;
     padding: 20px;
 }
