@@ -30,12 +30,8 @@
 /* theme */
 body {
     font-family: "EBCorp";
-}
-
-/* theme */
-body {
-    font-family: "EBCorp";
     margin: 0;
+    font-size: 24px;
 }
 
 .nav-bar {
