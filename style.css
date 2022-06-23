@@ -61,3 +61,32 @@ body {
     width: 7%;
     font-family: "EBCorp";
 }
+
+.look, .size {
+    border: 1px solid rgba(0,192,255,255);
+    border-radius: 7px;
+    transition: .2s;
+    font-size: 18px;
+}
+
+.look:hover, .size:hover {
+    border: 1px solid rgba(0,126,167,1);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.look:active, .size:active {
+    border: 1px solid rgba(0,192,255,255);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+select::-webkit-scrollbar {
+    background: transparent;
+}
+
+select::-webkit-scrollbar-thumb {
+    background: rgba(0,192,255,255);
+    border-radius: 10em;
+    border: 3px solid white;
+}
