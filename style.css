@@ -126,3 +126,7 @@ textarea {
     border: 1px solid rgba(0,192,255,255);
     border-radius: 5px;
 }
+
+textarea:hover {
+    border: 1px solid rgba(0,126,167,1);
+}
