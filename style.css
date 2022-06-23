@@ -97,7 +97,7 @@ body {
 
 .nav-bar {
     background-color: white;
-    box-shadow: 0 2px 8px #0000001a;
+    border-bottom: 1px solid #0000001a;
     padding: 2em;
 }
 
@@ -213,4 +213,9 @@ input[type=reset] {
 input[type=reset]:hover {
     border: 1px solid rgba(0,201,38,38);
     cursor: pointer;
+}
+
+.footer {
+    margin: 35px;
+    background: rgb(232,232,232);
 }
