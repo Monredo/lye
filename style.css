@@ -34,6 +34,10 @@ body {
     font-size: 24px;
 }
 
+::selection {
+    color: black;
+    background-color: #a5d2fa;
+
 .nav-bar {
     background-color: white;
     box-shadow: 0 2px 8px #0000001a;
@@ -103,10 +107,12 @@ select::-webkit-scrollbar-thumb {
 
 .upper:hover {
     border: 1px solid rgba(0,126,167,1);
+    cursor: pointer;
 }
 
 .upper:active {
     border: 1px solid rgba(0,126,167,1);
+    cursor: pointer;
 }
 
 /* textarea */
@@ -116,4 +122,6 @@ textarea {
     font-family: "EBCorp";
     font-size: 24px;
     padding: 20px;
+    border: 1px solid rgba(0,192,255,255);
+    border-radius: 5px;
 }
