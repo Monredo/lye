@@ -177,7 +177,7 @@ textarea {
     width: 800px;
     height: 350px;
     font-family: "EBCorp";
-    font-size: 8px;
+    font-size: 24px;
     padding: 20px;
     border: 1px solid rgba(0,192,255,255);
     border-radius: 5px;
@@ -186,7 +186,6 @@ textarea {
 textarea:hover {
     border: 1px solid rgba(0,126,167,1);
 }
-
 
 .normal {
     border: 1px solid rgba(0,192,255,255);
