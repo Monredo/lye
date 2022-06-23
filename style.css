@@ -219,3 +219,24 @@ input[type=reset]:hover {
     background: rgb(232,232,232);
     padding: 2em;
 }
+
+/* styled link */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(50,50,50,1);
+    text-decoration: none;
+}
+
+/* nav item */
+.nav-item {
+    margin-right: 19px;
+}
+
+/* navbar nav */
+.navbar-nav {
+    margin-left: auto!important;
+}
