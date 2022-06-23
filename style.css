@@ -1,13 +1,13 @@
 /* fonts */
 @font-face {
     font-family: 'EBCorp';
-    src: url('EBCorp-Regular.eot');
+    src: url('fonts/EBCorp-Regular.eot');
     src: local('EBCorp-Regular'),
-        url('EBCorp-Regular.eot?#iefix') format('embedded-opentype'),
-        url('EBCorp-Regular.woff2') format('woff2'),
-        url('EBCorp-Regular.woff') format('woff'),
-        url('EBCorp-Regular.ttf') format('truetype'),
-        url('EBCorp-Regular.svg#EBCorp-Regular') format('svg');
+        url('fonts/EBCorp-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EBCorp-Regular.woff2') format('woff2'),
+        url('fonts/EBCorp-Regular.woff') format('woff'),
+        url('fonts/EBCorp-Regular.ttf') format('truetype'),
+        url('fonts/EBCorp-Regular.svg#EBCorp-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -15,13 +15,13 @@
 
 @font-face {
     font-family: 'EBCorp';
-    src: url('EBCorp-Bold.eot');
+    src: url('fonts/EBCorp-Bold.eot');
     src: local('EBCorp-Bold'),
-        url('EBCorp-Bold.eot?#iefix') format('embedded-opentype'),
-        url('EBCorp-Bold.woff2') format('woff2'),
-        url('EBCorp-Bold.woff') format('woff'),
-        url('EBCorp-Bold.ttf') format('truetype'),
-        url('EBCorp-Bold.svg#EBCorp-Bold') format('svg');
+        url('fonts/EBCorp-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EBCorp-Bold.woff2') format('woff2'),
+        url('fonts/EBCorp-Bold.woff') format('woff'),
+        url('fonts/EBCorp-Bold.ttf') format('truetype'),
+        url('fonts/EBCorp-Bold.svg#EBCorp-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -30,4 +30,9 @@
 /* theme */
 body {
     font-family: "EBCorp";
+}
+
+.nav-bar {
+    background-color: white;
+    box-shadow: 0 3px 2px grey;
 }
