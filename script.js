@@ -19,3 +19,15 @@ function Bold() {
     document.getElementById('content').style.fontWeight='normal';
   }
 }
+
+function Italic() {
+  var bol=document.getElementById('content').style.fontStyle;
+  
+  if(bol=='normal') {
+    document.getElementById('content').style.fontStyle='italic';
+  }
+  
+  else {
+    document.getElementById('content').style.fontStyle='normal';
+  }
+}
