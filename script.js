@@ -31,3 +31,15 @@ function Italic() {
     document.getElementById('content').style.fontStyle='normal';
   }
 }
+
+function Underline() {
+  var bol=document.getElementById('content').style.textDecoration;
+  
+  if(bol!=='underline') {
+    document.getElementById('content').style.textDecoration='underline';
+  }
+  
+  else {
+    document.getElementById('content').style.textDecoration='none';
+  }
+}
