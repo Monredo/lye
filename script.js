@@ -3,7 +3,8 @@ function changeFont(font) {
 }
 
 function changeSize(n){
-  var s=document.getElementById('content');
+	var s=document.getElementById('content');
+	s.style.fontSize=n.value+'px';
 }
 
 function Bold() {
