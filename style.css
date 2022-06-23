@@ -32,7 +32,26 @@ body {
     font-family: "EBCorp";
 }
 
+/* theme */
+body {
+    font-family: "EBCorp";
+    margin: 0;
+}
+
 .nav-bar {
     background-color: white;
-    box-shadow: 0 3px 2px grey;
+    box-shadow: 0 2px 8px #0000001a;
+    padding: 2em;
+}
+
+/* theme */
+body {
+    font-family: "EBCorp";
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: white;
+    box-shadow: 0 2px 8px #0000001a;
+    padding: 2em;
 }
